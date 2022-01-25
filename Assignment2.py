@@ -1,34 +1,34 @@
-#question 1 (A)
+The solution of Question 1 is :
 
-len("python is a case sensitive language")
-
-#question 1 (B)
-
-s = 'Python is a case sensitive language' #initial string
-reversed=''.join(reversed(s)) # .join() method merges all of the characters resulting from the reversed iteration into a new string
-print(reversed) #print the reversed string
-
-#question 4
-
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
-num3 = float(input("Enter third number: "))
- 
-if (num1 > num2) and (num1 > num3):
-   largest = num1
-elif (num2 > num1) and (num2 > num3):
-   largest = num2
-else:
-   largest = num3
- 
-print("The largest number is",largest)
-
-#question 5
-
-s = "What is your name ?"
-word = "Geeks"
- 
-if (isWordPresent(s, word)):
-    print("Yes")
-else:
-    print("No")
+Enter the string : Python is a case sensitive language
+(a)     The length of the given string is : 35
+(b)     The string in reverse would be : egaugnal evitisnes esac a si nohtyP
+(c)     The new string becomes : a case sensitive
+(d)     The replaced substring will be : Python is object oriented language
+(e)     The first occurence of the given substring "a" is at index no. = 10
+(f)     The inputted strings with no white spaces will be "Pythonisacasesensitivelanguage"
+The solution of Question 2 is :
+Enter your name : Tejvansh
+Enter your SID : 20104129
+Enter the name of your department : ee
+Enter your CGPA : 10
+Hey, tejvansh Here!
+My SID is 20104129
+I am from EE department and my CGPA is 10.0
+The solution of Question 3 is :
+a.      a & b = 8
+b.      a | b = 58
+c.      a ^ b = 50
+d.      Left shift both a and b with 2 bits : a = 224, b = 40
+e.      Right shift a with 2 bits and b with 4 bits : a = 14, b = 0
+The solution of Question 4 is :
+Enter first number : 45
+Enter second number : 22
+Enter third number : 124
+The greatest number is 124
+The solution of Question 5 is :
+Enter the string : adfhakjfhanameeaihfsadjkfh
+Yes
+The solution of Question 6 is :
+Enter the dimensions to check whether triangle possible or not : 6 10 12
+Yes
